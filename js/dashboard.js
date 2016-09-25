@@ -1295,7 +1295,6 @@ function monthSelect(months){
   // Helper function to make request for JSONP.
 
 function requestJSON(url, callback) {
-  console.log('hey now');
     $.ajax({
       beforeSend: function() {
         // Handle the beforeSend event
